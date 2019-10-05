@@ -1,0 +1,29 @@
+body {
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  background-color: skyblue;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin: 0 8px 8px 0;
+  transition: 0.8s;
+}
+
+.win {
+  border-radius: 50%;
+  background-color: pink;
+  transform: rotate(360deg);
+}
+
+.lose {
+  transform: scale(0.9);
+}
